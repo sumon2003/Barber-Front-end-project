@@ -32,7 +32,7 @@ body{
     font-weight: 400;
     line-height: 25px;
     color: #FFFFFFB3;
-    background-color: #24282A;
+    background-color: #646667;
 }
 
 h1, h2, h3 h4, h5 h6{ 
@@ -56,3 +56,17 @@ h1, h2, h3 h4, h5 h6{
     float: right;
 }
 
+
+.header-top-area{
+    padding: 20px 0;
+}
+.header-top-area a{
+    color: #333;
+}
+
+.header-top-info a {
+    margin-right: 25px;
+}
+.header-top-social a{
+    margin-left: 20px;
+}
