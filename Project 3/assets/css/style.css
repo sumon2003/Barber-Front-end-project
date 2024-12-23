@@ -104,3 +104,40 @@ h1, h2, h3 h4, h5 h6{
 .menu ul li a{
     color: var(--heading-color);
 }
+
+.banner-area {
+    background-position: center;
+    background-size: cover;
+    padding: 120px 0;
+}
+.banner span {
+    display: block;
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--primary-color);
+}
+.banner h1 {
+    line-height: 70px;
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--heading-color);
+}
+.banner h5 {
+    font-size: 22px;
+    line-height: 30px;
+    color: #FFFFFFB3;
+}
+.btn-bg {  
+    color: var(--heading-color);
+    padding: 15px 40px;
+    background-color: var(--primary-color);
+    display: inline-block;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.btn-bg:hover{
+    background-color: #A68048;
+}
+.banner a.btn-bg{
+    margin-top: 20px;
+}
