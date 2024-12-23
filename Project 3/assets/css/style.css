@@ -37,6 +37,7 @@ body{
 
 h1, h2, h3 h4, h5 h6{ 
     font-family: "Lora", serif;
+    /* color: var(--heading-color); */
 }
 
 .container{
@@ -54,6 +55,12 @@ h1, h2, h3 h4, h5 h6{
 }
 .f-right{
     float: right;
+}
+.pt-80{
+    padding-top: 80px;
+}
+.pb-80{
+    padding-bottom: 80px;
 }
 
 
@@ -140,4 +147,58 @@ h1, h2, h3 h4, h5 h6{
 }
 .banner a.btn-bg{
     margin-top: 20px;
+}
+
+.services-area {
+    background: #24282A;
+}
+.services{
+    text-align: center;
+}
+.section-title {
+    margin-bottom: 60px;
+}
+.section-title img {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.section-title span {
+    display: block;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+.section-title h4 {
+    line-height: 60px;
+    font-size: 50px;
+    color: var(--heading-color);
+    margin-bottom: 8px;
+}
+.section-title p {
+    font-size: 22px;
+    line-height: 30px;
+}
+.single-service {
+    float: left;
+    width: 370px;
+    margin-right: 30px;
+}
+.single-service:last-child{
+    margin-right: 0;
+}
+.single-service img{}
+.single-service h4 {
+    font-size: 25px;
+    margin: 10px 0;
+    color: var(--heading-color);
+}
+.single-service p {
+    line-height: 30px;
+    color: #FFFFFFE6;
+}
+.read-more-btn{
+    text-align: center;
+    margin-top: 60px;
 }
