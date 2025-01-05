@@ -296,3 +296,39 @@ h1, h2, h3 h4, h5 h6{
 .single-why-choose:last-child .single-why-choose-box i{
     left: 0;
 }
+
+.price-area{
+    background-color: var(--bg-color-1);
+}
+.single-price {
+    margin-right: 30px;
+    width: 570px;
+}
+.single-price:last-child {
+    margin-right: 0;
+}
+.single-price-list {
+    position: relative;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #303537;
+}
+.single-price-list:last-child{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: 0;
+}
+.single-price-list span {
+    position: absolute;
+    right: 0;
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+.single-price-list h4 {
+    font-size: 26px;
+}
+.single-price-list p {
+    margin-top: 10px;
+}
+
