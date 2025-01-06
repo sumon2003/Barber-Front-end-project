@@ -332,3 +332,63 @@ h1, h2, h3 h4, h5 h6{
     margin-top: 10px;
 }
 
+.team-area{
+    background-color: var(--bg-color-2);
+}
+.single-team {
+    width: 370px;
+    margin-right: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.single-team:last-child{
+    margin-right: 0;
+}
+.team-img {
+    background-position: center;
+    background-size: cover;
+    padding-top: 125%;
+}
+.team-content-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* opacity: 0; */
+    z-index: 2;
+    visibility: hidden;
+    transition: .5s;
+    transform: rotate(0) scale(0);
+}
+.team-content-overlay:before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #333;
+    opacity: .8;
+    z-index: -1;
+}
+.single-team:hover .team-content-overlay{
+    visibility: visible;
+    /* opacity: 1; */
+    transform: rotate(720deg) scale(1);
+}
+.team-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+.team-content h4{
+    font-size: 26px;
+}
+.team-content h4 span {
+    display: block;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
