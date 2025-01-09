@@ -392,3 +392,98 @@ h1, h2, h3 h4, h5 h6{
     margin-top: 10px;
 }
 
+
+.contact-area{
+    background-color: var(--bg-color-1);
+}
+.contact-info {
+    width: 600px;
+    margin-right: 60px;
+}
+.contact-info-title, .contact-info-hours{
+    margin-bottom: 40px;
+}
+.contact-info-title span{
+    color: var(--primary-color);
+    font-size: 20px;
+}
+.contact-info-title h4 {
+    font-size: 35px;
+    line-height: 50px;
+}
+.contact-info-title p {
+    font-size: 20px;
+    line-height: 28px;
+}
+.contact-info-hours h4, .contact-info-list h4{
+    font-size: 35px;
+    line-height: 50px;
+    margin-bottom: 15px;
+}
+.contact-info-hours ul{}
+.contact-info-hours ul li, .contact-info-list ul li{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.contact-info-hours ul li:last-child, .contact-info-list ul li:last-child{
+    margin-bottom: 0;
+}
+.contact-info-list{}
+.contact-info-list h4{}
+.contact-info-list ul{}
+.contact-info-list ul li{}
+.contact-info-list ul li i{
+    padding-right: 10px;
+}
+.contact-form {
+    width: 510px;
+    background-color: #2e3336;
+    padding: 35px 40px;
+}
+.single-contact-form {
+    margin-bottom: 30px;
+}
+.single-contact-form:last-child{
+    margin-bottom: 0;
+}
+.single-contact-form span {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.single-contact-form input, .single-contact-form textarea{
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+}
+.single-contact-form textarea{}
+.single-contact-form input[type="submit"]{
+    background-color: var(--primary-color);
+    color: var(--heading-color);
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.footer-area{
+    background-color: #1a1d1f;
+}
+.footer-top {
+    border-bottom: 1px solid #454749;
+    padding-bottom: 24px;
+    margin-bottom: 26px;
+}
+.footer-top-title {
+    margin-right: 30px;
+}
+.footer-top-title h4{
+    font-size: 25px;
+}
+.footer-top-info{}
+.footer-top-info span {
+    margin-left: 20px;
+}
+.footer-top-info span i{
+    margin-right: 5px;
+    color: var(--primary-color);
+}
