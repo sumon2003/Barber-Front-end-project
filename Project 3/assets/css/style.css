@@ -487,3 +487,67 @@ h1, h2, h3 h4, h5 h6{
     margin-right: 5px;
     color: var(--primary-color);
 }
+
+.single-footer {
+    width: 170px;
+    margin-right: 30px;
+}
+.single-footer:first-child{
+    width: 540px;
+}
+.single-footer img{}
+.single-footer p {
+    margin-top: 20px;
+    font-size: 18px;
+}
+.single-footer h4 {
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+.single-footer ul{}
+.single-footer ul li {
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+}
+.single-footer ul li a, .icons a i{
+    color: var(--heading-color);
+    transition: .3s;
+}
+.icons{}
+.icons a {
+    margin-right: 10px;
+}
+.icons a:last-child{
+    margin-right: 0;
+}
+/* .icons a i{
+    color: var(--heading-color);
+} */
+.icons a i:hover, .single-footer ul li a:hover{
+    color: var(--primary-color);
+}
+
+.footer-bottom.fix {
+    border-top: 1px solid #454749;
+    margin-top: 40px;
+    padding-top: 30px;
+}
+.footer-copy{}
+.footer-copy p{}
+.footer-copy p a, .footer-menu ul li a{
+    color: var(--heading-color);
+    transition: .3s;
+}
+.footer-copy p a:hover, .footer-menu ul li a:hover{
+    color: var(--primary-color);
+}
+.footer-menu{}
+.footer-menu ul{}
+.footer-menu ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+/* .footer-menu ul li a{
+    color: var(--heading-color);
+    transition: .3s;
+} */
