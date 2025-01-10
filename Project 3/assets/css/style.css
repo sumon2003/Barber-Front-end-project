@@ -297,6 +297,18 @@ h1, h2, h3 h4, h5 h6{
     left: 0;
 }
 
+.gallery-area{}
+.gallery{}
+.single-gallery {
+    margin-right: 20px;
+    width: 376px;
+}
+.single-gallery:nth-child(3), .single-gallery:nth-child(6){
+    margin-right: 0;
+}
+.single-gallery img{}
+
+
 .price-area{
     background-color: var(--bg-color-1);
 }
@@ -508,6 +520,21 @@ h1, h2, h3 h4, h5 h6{
 .single-footer ul li {
     margin-bottom: 15px;
     padding-bottom: 10px;
+    position: relative;
+}
+.single-footer ul li:before {
+    content: "\f072";
+    position: absolute;
+    font-family: "Font Awesome 5 FREE";
+    left: -40px;
+    top: 0;
+    font-weight: 700;
+    color: rgb(235, 63, 0);
+    transition: .8s;
+}
+.single-footer ul li:hover::before{
+    left: -30px;
+    color: var(--primary-color);
 }
 .single-footer ul li a, .icons a i{
     color: var(--heading-color);
@@ -520,9 +547,7 @@ h1, h2, h3 h4, h5 h6{
 .icons a:last-child{
     margin-right: 0;
 }
-/* .icons a i{
-    color: var(--heading-color);
-} */
+
 .icons a i:hover, .single-footer ul li a:hover{
     color: var(--primary-color);
 }
@@ -547,7 +572,3 @@ h1, h2, h3 h4, h5 h6{
     display: inline-block;
     margin-left: 20px;
 }
-/* .footer-menu ul li a{
-    color: var(--heading-color);
-    transition: .3s;
-} */
